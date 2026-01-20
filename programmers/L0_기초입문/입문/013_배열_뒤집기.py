@@ -3,7 +3,11 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120821
 # 알고리즘: 기초
 # 작성자: 김하은
-# 작성일: 2026. 01. 20. 10:18:25
+# 작성일: 2026. 01. 20. 10:19:05
 
 def solution(num_list):
     return num_list[::-1]
+
+def solution(num_list):
+    num_list.reverse()
+    return num_list
