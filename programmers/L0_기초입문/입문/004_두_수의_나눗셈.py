@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120806
 # 알고리즘: 기초
 # 작성자: 김하은
-# 작성일: 2026. 01. 20. 09:49:16
+# 작성일: 2026. 01. 21. 17:03:06
 
 def solution(num1, num2):
     return int((num1/num2)*1000)
