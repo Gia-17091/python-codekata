@@ -3,11 +3,11 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120905
 # 알고리즘: 기초
 # 작성자: 김하은
-# 작성일: 2026. 01. 22. 11:36:42
+# 작성일: 2026. 01. 22. 11:39:55
 
 def solution(n, numlist):
     result = []
-    for i in numlist:
-        if i % n ==0:
+    for i in numlist:       # 반복할 대상 확인하기!
+        if i % n ==0:       # append()를 통해 n 배수만 남기기
             result.append(i)
     return result
