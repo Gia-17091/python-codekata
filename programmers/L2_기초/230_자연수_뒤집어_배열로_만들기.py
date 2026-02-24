@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12932
 # 알고리즘: 문자열, 배열
 # 작성자: 김하은
-# 작성일: 2026. 02. 24. 13:00:14
+# 작성일: 2026. 02. 24. 13:00:23
 
 def solution(n):
     answer = []
