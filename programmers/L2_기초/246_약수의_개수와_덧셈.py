@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/77884
 # 알고리즘: 수학
 # 작성자: 김하은
-# 작성일: 2026. 03. 16. 17:00:47
+# 작성일: 2026. 03. 16. 17:06:20
 
 def solution(left, right):
     answer=0
