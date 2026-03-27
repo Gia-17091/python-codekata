@@ -11,5 +11,5 @@ def solution(s):
         if i != "Z":
             answer.append(int(i))
         else:
-            answer.pop() 
+            answer.pop()             # 리스트.pop() : 맨 마지막 요소를 꺼내고, 삭제하시오.
     return sum(answer)
