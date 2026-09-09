@@ -1,0 +1,10 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120805
+# 풀이
+- 나눗셈 연산자(/)
+- 몫 구하는 연산자(//)
+- 나머지 구하는 연산자(%)
+
+# 답안
+def solution(num1, num2):
+    answer = num1//num2
+    return answer
