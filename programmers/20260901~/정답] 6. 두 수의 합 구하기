@@ -1,0 +1,8 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120802
+# 풀이
+- 합을 구할 때, 사용하는 연산자(+) 사용.
+
+# 답안
+def solution(num1, num2):
+    answer = num1+num2
+    return answer
