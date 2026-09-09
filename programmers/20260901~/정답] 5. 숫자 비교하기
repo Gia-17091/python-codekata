@@ -1,0 +1,16 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120807
+# 풀이
+- if문
+if 조건식:
+  return 값
+elif 조건식:            -> 다른 조건을 추가할 때, 사용
+  return 값
+else:                  -> 모든 조건이 맞지 않을 때 사용하는 Optional이기에, 생략해도 무방.
+  return 값
+
+# 답안
+def solution(num1, num2):
+    if num1==num2:
+        return 1
+    else:
+        return -1 
