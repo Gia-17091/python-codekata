@@ -1,9 +1,0 @@
-# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120817
-# 풀이
-- 리스트의 개수를 셀 때, **len()**을 사용함. 
-- count()는 리스트의 전체 수를 세는 것이 아닌, count(값)의 형태로 값이 몇 번 등장하는지 세는 함수를 의미함. 
-
-# 답안
-def solution(numbers):
-    answer = sum(numbers)/len(numbers)
-    return answer
