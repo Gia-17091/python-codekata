@@ -1,0 +1,6 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120807
+# 막힌 이유: 정수로 표현에서 int()를 생각하지 못함
+
+def solution(num1, num2):
+    answer = (num1/num2)*1000
+    return int(answer)
