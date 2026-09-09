@@ -1,0 +1,9 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120803
+
+# 풀이
+- 빼기 연산자(-) 사용
+
+# 답안
+def solution(num1, num2):
+    answer = num1-num2
+    return answer
