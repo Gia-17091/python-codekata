@@ -1,0 +1,9 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120820
+# 풀이
+- 한국식 나이는 태어났을 때부터 1살.
+- (현재 연도+1) - 출생 연도
+
+# 답안
+def solution(age):
+    answer = 2023-age
+    return answer
