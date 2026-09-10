@@ -1,0 +1,12 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12928
+# 풀이
+-  약수는 어떤 수를 나누어 떨어지게 하는 수를 의미한다.
+- 고로, 본 문제는 %(나머지 구하는 연산자)를 활용해 값이 0이 되는 것을 모두 더하면 된다.
+
+# 답안
+def solution(n):
+    answer = 0
+    for i in range(1,n+1):
+        if n%i==0:
+            answer+=i
+    return answer
