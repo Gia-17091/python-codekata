@@ -1,0 +1,11 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12944
+# 풀이
+- list는 여러 데이터를 담는 바구니와 같음
+- 이의 합은 sum()으로, 전체 데이터 수는 len()로 구함.
+- count가 안되는 이유?
+: 특정 요소가 등장하는 횟수로, 아래와 같이 list가 있을 때, my_list.count(2)의 형태로 표현
+my_list = [1,2,3,4]
+# 답안
+def solution(arr):
+    answer= sum(arr) /len(arr)
+    return answer
