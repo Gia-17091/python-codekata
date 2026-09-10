@@ -1,0 +1,11 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12937 
+# 풀이
+- 짝수 = 2로 나눴을 때, 나머지가 0인 것.
+- 즉, 숫자 %2==0으로 조건문을 작성하면 됨.
+
+# 답안
+def solution(num):
+    if num %2 ==0:
+        return "Even"
+    else:
+        return "Odd"
