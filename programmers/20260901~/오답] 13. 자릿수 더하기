@@ -1,0 +1,15 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12931
+# 풀이
+- N의 모든 자릿수를 더해야하기에, 이를 for 문을 활용해 값을 더하는 방식으로 진행한다.
+- for문의 Default
+for 변수 in 반복할_대상:      -> int()일 경우, for 문에 한 자리씩 꺼낼 수 없다. 
+  print(i)
+
+** 반복할 대상은 str, list처럼 꺼낼 수 있어야 함.
+
+# 답안
+def solution(n):
+    answer = 0
+    for i in str(n):
+        answer+=int(i)
+    return answer
