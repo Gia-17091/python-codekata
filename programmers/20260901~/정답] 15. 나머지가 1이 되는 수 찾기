@@ -1,0 +1,11 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/87389
+# 풀이
+- 나눗셈 연산자(%)을 활용해 1이 되는 값을 찾으면 된다.
+- 단, 가장 작은 수를 구하라고 하였으므로, for문을 사용하되 break를 걸어주면 된다.
+
+# 답안
+def solution(n):
+    for i in range(1,n+1):
+        if n%i==1:
+            return i
+            break
