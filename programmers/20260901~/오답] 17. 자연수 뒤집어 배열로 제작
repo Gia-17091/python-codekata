@@ -1,0 +1,9 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12932
+# 풀이
+- 
+
+# 답안
+def solution(n):
+    answer = []
+    answer.sorted(answer, reverse=True)
+    return answer
