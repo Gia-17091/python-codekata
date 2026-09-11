@@ -1,0 +1,17 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12954#qna
+# 풀이
+- 첫 풀이는 answer+=i로 작성하였다. answer가 리스트인데 +=의 오른쪽에 정수 i를 넣었기에, 오류가 발생하였다. 
+- 이 풀이는 append()를 활용해 해결할 수 있으며, 관련된 풀이는 아래와 같다.
+- 첫 번째 풀이와 같이 작성하고자 한다면, 아래와 같이 할 수 있다.
+def solution(x, n):
+    answer = []
+    for i in range(1, n+1):
+        answer += [i*x]
+    return answer
+
+# 답안
+def solution(x, n):
+    answer = []
+    for i in range(1,n+1):
+        answer.append(i*x)
+    return answer
