@@ -1,0 +1,8 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12925
+# 풀이
+- 문자열, 실수형을 정수형으로 바꾸는 함수 : int()
+
+# 답안
+def solution(s):
+    answer = int(s)
+    return answer
