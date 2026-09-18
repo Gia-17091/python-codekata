@@ -1,0 +1,13 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12934
+# 풀이
+- if - else가 하나의 set로 사용하는 버릇.. -> 고치자요..
+else:
+  return -1
+이렇게 사용하면, 반복해서 결국엔.. -1로만 출력된다.
+
+# 답안
+def solution(n):
+    for x in range (1, n+1):
+        if x ** 2 == n:
+            return (x+1)**2
+    return -1
