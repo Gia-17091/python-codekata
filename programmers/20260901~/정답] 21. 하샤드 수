@@ -1,0 +1,15 @@
+# 링크: 
+# 풀이
+- map(int, str(x))를 활용
+ # 문자열은 각 문자를 하나씩 꺼낼 수 있음.
+ # 최종적으로 각 문자를 정수로 변환.
+
+# 답안
+def solution(x):
+    answer = list(map(int, str(x)))
+    sum_a = sum(answer)
+
+    if x % sum_a == 0:
+        return True
+    else:
+        return False
