@@ -1,9 +1,11 @@
 # 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12932
 # 풀이
-- 
+- map(함수, 반복할 자료)를 의미한다.
+즉, 문자열 n을 int(정수형으로 변환) => 결과값은 list로 확인
+- 역순 정렬 => reverse()
 
 # 답안
 def solution(n):
-    answer = []
-    answer.sorted(answer, reverse=True)
+    answer = list(map(int, str(n)))
+    answer.reverse()
     return answer
