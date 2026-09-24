@@ -1,0 +1,13 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/86051#qna
+# 풀이
+- not 논리 부정 연산자
+True를 False로, False를 True로 바꾸는 연산자.
+not 조건이 default 값!
+
+# 답안
+def solution(numbers):
+    answer = 0
+    for i in range(1,10):
+        if i not in numbers:
+            answer += i
+    return answer
