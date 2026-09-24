@@ -1,0 +1,15 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12910#qna
+# 풀이
+- for문을 통해 반복문을 생성
+- if문을 통해 나누어떨어질때의 경우와 빈list가 호출될 경우로 나눔.
+
+# 답안
+def solution(arr, divisor):
+    answer = []
+    for i in arr:
+        if i % divisor == 0:
+            answer.append(i)
+            answer.sort()
+    if answer == []:
+        answer.append(-1)
+    return answer
