@@ -1,0 +1,19 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12916
+# 풀이
+- SQL 개념과의 혼동.
+  첫번째 답은 아래와 같이 작성하였다.
+  def solution(s):
+    s = s.lower()
+    if count(s['p']) == count(s['y']):
+        return True
+    else:
+        return False
+    여기서는 count 개념이 혼동되었는데, 파이썬에서는 s.count("원하는 것")으로 작성함을 잊지 말자.
+
+# 답안
+def solution(s):
+    s = s.lower()
+    if s.count("p") == s.count('y'):
+        return True
+    else:
+        return False
