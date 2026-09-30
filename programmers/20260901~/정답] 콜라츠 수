@@ -1,0 +1,27 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12943
+
+# 풀이
+- 콜라츠 수가 몇 번반복되는지 구하시오에 관한 문제 => answer = 0을 둬야함.
+- 1이 되기 전까지 반복해야하므로, while n!=1이라고 조건을 둬야한다. 
+- 이후, 콜라츠 수의 규칙에 따라, 짝수인 경우는 몫을 구하고, 홀수인 경우에는 그 수에 *3 + 1을 수행한다.
+
+# 답안
+def solution(n):
+    answer = 0
+    while n != 1:
+        if answer >= 500:
+            return -1
+        if n % 2 == 0:
+            n = n // 2
+            answer += 1
+        else:
+            n = n * 3 +1
+            answer += 1
+    return answer
+
+# 핵심 문법
+- while 조건식:
+      블록
+
+# 배운 점
+- 이 문제는 과제 중 한 문제와 거의 유사했던 문제(다른 것은 과제는 콜라츠 수가 종결될때까지 나타내는 형식(예. 6 -> 3 -> ....)
