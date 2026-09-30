@@ -1,5 +1,12 @@
-https://school.programmers.co.kr/learn/courses/30/lessons/12922
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12922
 
+# 풀이
+- while절을 활용해 count기 n이 되기전까지 반복
+- 문자열이 홀수일때는 "수"
+- 문자열이 짝수일때는 "박"
+  이므로, count를 활용해 짝수/홀수 구분을 수행.
+
+# 답안
 def solution(n):
     answer = ""
     count = 0
@@ -13,3 +20,18 @@ def solution(n):
         count += 1
 
     return answer
+
+# 핵심 문법
+1. while 문
+while 조건식:
+    < 블록 >
+
+2. 짝수 판별
+if n % 2 == 0:
+    print("짝수")
+else:
+    print("홀수")
+
+# 배운 점
+- while을 지난주(9/23)에 배웠기에, 이를 활용하여 문제를 풀었다. 
+- 코드를 매끄럽게 작성이 안되므로, 좀 더 연습을 진행해야겠다.
