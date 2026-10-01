@@ -1,0 +1,20 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/70128
+
+# 풀이
+- answer = 0으로 초기화
+- for문(반복문)을 len(a) 혹은 len(b)의 길이만큼 반복하도록 설정
+- answer 변수에 내적(a[i] * b[i])가 들어가도록 설정
+
+# 답안
+def solution(a, b):
+    answer = 0
+    for i in range(len(a)):
+        answer += a[i] * b[i]
+    return answer
+
+# 핵심 문법
+- len() : 길이를 나타내는 함수
+- range(): 범위를 나타내는 함수
+
+# 배운 점
+- 지금까지 배운 것을 복습하는 문제였다.
