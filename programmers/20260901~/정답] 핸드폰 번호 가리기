@@ -20,3 +20,7 @@ def solution(phone_number):
 
 # 배운 점
 - replace()를 새롭게 배웠다.
+- 하지만.. replace를 활용하지 않아도, 간단하게 나타내는 방법이 있었음.
+
+def solution(phone_number):
+    return "*" * (len(phone_number) - 4) + phone_number[-4:]
