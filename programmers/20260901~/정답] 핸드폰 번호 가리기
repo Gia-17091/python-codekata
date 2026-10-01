@@ -1,0 +1,22 @@
+# 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12948
+
+# 풀이
+- 핸드폰 전화번호가 N자리처럼 정해지지 않았으므로, list의 index를 활용해서 문제를 풀어야 한다.
+- 먼저 for문을 통해 반복하되, 4자리를 제외한 수를 반복하면! 문자열"*"이 무한정으로 반복되므로, 임의의 숫자를 활용해 반복을 실시한다.
+- 결과값은 초반에 생성하였던, answer에 복합대입연산자인 +=를 활용해 연산을 진행하고, 마지막 return에서 구한 answer와 기존 phone_number의 끝자리 4자리를 넣는다.
+
+# 답안
+def solution(phone_number):
+    answer = ''
+    len_4 = len(phone_number)-4
+    for i in range(len_4):
+        change = phone_number[1].replace(phone_number[1], "*")
+        answer += change
+    return answer+ phone_number[len_4:]
+
+# 핵심 문법
+- str.replace(old, new, count=-1)
+: count=-1은 count를 따로 적지 않으면, 실시되는 것으로 문자열 안에 있는 타겟을 모조리 바꿈.
+
+# 배운 점
+- replace()를 새롭게 배웠다.
