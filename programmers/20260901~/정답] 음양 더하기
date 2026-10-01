@@ -1,0 +1,25 @@
+# 링크: 
+https://school.programmers.co.kr/learn/courses/30/lessons/76501#
+# 풀이
+- 문제에서 요구하고 있는 것은 list인 absolutes를 반복하되, 
+  signs에 True이면, 그대로 더하고~ False면 부호를 바꿔 더하라는 이야기다.
+- if-else문에서의 if 조건식이 True이면, if문의 블록이 실행된다는 점을 활용해
+  if sign[i]로 작성하였다. 
+
+# 답안
+def solution(absolutes, signs):
+    answer = 0
+    for i in range(len(absolutes)): 
+        if signs[i] :
+            answer +=absolutes[i]
+        else:
+            answer-=absolutes[i]
+    return answer
+
+# 핵심 문법
+- int는 in으로 표현이 불가하므로, in range를 활용해 구간으로 나타낸다.
+- if-else문은 조건식이 True이면 실행.
+
+# 배운 점
+- int의 경우, for i in len(lst)를 할 수 없다.
+  -> in이 아닌, in range까지 작성할 것!
