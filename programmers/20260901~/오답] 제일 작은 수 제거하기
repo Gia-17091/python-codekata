@@ -1,0 +1,26 @@
+# 링크: 
+https://school.programmers.co.kr/learn/courses/30/lessons/12935
+# 풀이
+- list의 최솟값을 찾기
+- 이후, 최솟값의 인덱스 제외한 나머지를 모두 출력하기
+  : 오답의 이유: 인덱스 기준, 앞부분만 출력을 수행.
+
+# 답안
+def solution(arr):
+    for i in range(len(arr)):
+        min_arr = min(arr)
+        position = arr.index(min(arr))
+        if len(arr) >1:
+            answer = arr[:position]
+        else:
+            answer = [-1]
+    return answer
+  
+# 핵심 문법
+- list.index()는 0부터 시작하며, 
+  lst[3:](index 3부터 출력)
+  lst[:3](index 0~3까지 출력)
+
+# 배운 점
+- 오늘 새롭게 index에 대해 배웠는데, 어떻게 활용하는지 방법을 확실하게 정립함.
+- 
